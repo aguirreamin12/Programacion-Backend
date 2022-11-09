@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Remera Blanca - Un Verano Sin Ti (Bad Bunny)",
+    "price": 4250,
+    "thumbnail": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/209/361/products/211-9a1247b47c50f897b116563683343713-1024-1024.png",
+    "id": 2
+  },
+  {
+    "title": "Buzo Canguro - Venus de Jalea (Los Simpsons)",
+    "price": 4800,
+    "thumbnail": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/209/361/products/5711-6822a24a2b243851be16480615826743-1024-1024.png",
+    "id": 3
+  }
+]
