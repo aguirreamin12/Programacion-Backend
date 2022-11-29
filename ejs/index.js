@@ -1,16 +1,17 @@
 const express = require('express');
-const routerProductos = require('./routes/productos.js');
-
+const router = require('./routes/products');
 const PORT = 8080;
 const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
 
-app.use('/api', routerProductos);
+app.set('views', './views');
+app.set('view engine', 'ejs');
+
+app.use('/', router);
 
 const server = app.listen(PORT, () =>
 	console.log(`Server running on port ${PORT}`)
 );
-server.on('error', err => console.log(`Error: ${err}`));
+server.on('error', () => console.log(`Error: ${err}`));
