@@ -23,7 +23,7 @@ app.use('*', (req, res) => {
 	const method = req.method;
 	res.send({
 		error: -2,
-		description: `ruta '${path[0]}' método '${method}' no implementada`
+		description: `ruta '${path[0]}' método '${method}' no autorizada`
 	});
 });
 
